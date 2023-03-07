@@ -1,0 +1,5 @@
+python main.py --train True --evaluate True \
+--dataset MainTS \
+--window_size 20 \
+--horizon 10 \
+--norm_method z_score --train_length 7 --test_length 1
